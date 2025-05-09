@@ -4,6 +4,10 @@ import "./style.css";
 
 const app = document.getElementById("app");
 const button = document?.getElementById("button") as HTMLElement;
+const example = "pierre olivier";
+if (example === "pierre olivier") {
+  console.log("ok");
+}
 
 const fullAnimation = () => {
   const introSection = document.getElementById("intro-section") as HTMLElement;
